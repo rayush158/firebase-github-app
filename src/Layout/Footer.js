@@ -10,8 +10,9 @@ const Footer = () => {
       tag="footer"
       className="text-center bg-info text-white text-uppercase fixed-bottom p-2"
     >
-      GitHub Repose Made with ❤️
+      GitHub Repose Made with ❤️ by
       <SocialIcon
+        className="ml-2"
         url="https://www.instagram.com/ayushk1998/"
         target="_blank"
       ></SocialIcon>
