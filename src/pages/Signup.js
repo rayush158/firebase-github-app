@@ -55,7 +55,7 @@ const Signup = () => {
         <Col lg={6} className="offset-lg-3 mt-5">
           <Card>
             <Form onSubmit={handleSubmit}>
-              <CardHeader className="">Signup here</CardHeader>
+              <CardHeader className="">Sign Up here</CardHeader>
               <CardBody>
                 <FormGroup row>
                   <Label for="email" sm={3}>
