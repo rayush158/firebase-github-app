@@ -10,7 +10,7 @@ const Repos = ({ repos_url }) => {
     setRepos(data);
   };
   useEffect(() => {
-    fetchRepos();
+    fetchRepos()
   }, [repos_url]);
 
   return (
